@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Corvids – Hackers' Nest</title>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --text: #e0e0e0;
+      --accent: #7f00ff;
+      --secondary: #444;
+      --font: 'Courier New', monospace;
+    }
+
+    body {
+      margin: 0;
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      color: var(--accent);
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      font-weight: normal;
+      margin-top: 0.5rem;
+    }
+
+    nav {
+      margin: 2rem 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+      align-items: center;
+    }
+
+    nav a {
+      color: var(--text);
+      text-decoration: none;
+      background: var(--secondary);
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      transition: background 0.2s;
+    }
+
+    nav a:hover {
+      background: var(--accent);
+    }
+
+    .section {
+      max-width: 700px;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .gif-container {
+      margin: 2rem 0;
+      text-align: center;
+    }
+
+    .gif-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #888;
+      text-align: center;
+    }
+
+    @media (min-width: 600px) {
+      nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🪶 The Corvids</h1>
+    <h2>“We don’t peck — we pwn.”</h2>
+  </header>
+
+  <div class="gif-container">
+    <img src="https://media.giphy.com/media/3oEduSbSGpGaRX2Vri/giphy.gif" alt="Crow GIF" />
+  </div>
+
+  <section class="section">
+    <h3>🛠️ Current Mission</h3>
+    <p><strong>CTF 2025 — Operation: Peckstorm</strong><br>
+      🕵️‍♂️ Status: Infiltrating with elegance.<br>
+      🧠 Tools: Brains, bash, and birdlike cunning.
+    </p>
+  </section>
+
+  <section class="section">
+    <h3>🧠 Corvid Wisdom of the Day</h3>
+    <p>“Why brute-force a password when social engineering is just a phone call away?”<br>
+    – <em>The Elder Raven</em></p>
+  </section>
+
+  <footer>
+    <p>⚠️ Everything here is a joke. No crows were harmed during the hacking.<br>
+    The Corvids © 2025</p>
+  </footer>
+</body>
+</html>
